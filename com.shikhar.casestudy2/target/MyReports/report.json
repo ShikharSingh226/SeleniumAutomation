@@ -1,0 +1,129 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-15T07:10:27.494Z",
+        "line": 16,
+        "name": "Test Goibibo Website",
+        "description": "",
+        "id": "booking-task-on-goibibo-website;test-goibibo-website;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 42086018400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on goibibo page",
+            "match": {
+              "location": "stepDefinitions.goibibostepdefinition.user_is_on_goibibo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 244160700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user tap on one way",
+            "match": {
+              "location": "stepDefinitions.goibibostepdefinition.user_tap_on_one_way()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7670297900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter \"New Delhi\" \u0026 \"New York\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"New Delhi\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"New York\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.goibibostepdefinition.user_enter(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5549670000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user select departure \"15\" \u0026 \"July 2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"July 2021\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinitions.goibibostepdefinition.user_select_departure_date(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26235440000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user selects traveller details",
+            "match": {
+              "location": "stepDefinitions.goibibostepdefinition.user_selects_traveller_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0\r\n\tat java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)\r\n\tat java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)\r\n\tat java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)\r\n\tat java.base/java.util.Objects.checkIndex(Objects.java:359)\r\n\tat java.base/java.util.ArrayList.get(ArrayList.java:427)\r\n\tat stepDefinitions.goibibostepdefinition.user_selects_cheapest_price(goibibostepdefinition.java:92)\r\n\tat ✽.user selects cheapest price(file:///C:/Users/Shikhar/eclipse-workspace/com.shikhar.casestudy2/src/main/java/Features/Booking.feature:11)\r\n",
+              "duration": 10416391000,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "user selects cheapest price",
+            "match": {
+              "location": "stepDefinitions.goibibostepdefinition.user_selects_cheapest_price()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5004000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user book and review",
+            "match": {
+              "location": "stepDefinitions.goibibostepdefinition.user_book_and_review()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Booking Task on Goibibo website",
+    "description": "",
+    "id": "booking-task-on-goibibo-website",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/Features/Booking.feature",
+    "tags": []
+  }
+]

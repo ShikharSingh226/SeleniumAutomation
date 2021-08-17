@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test-Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.extentreportlistener.ERListener"/>
+  </listeners>
+  <test thread-count="5" name="case2(failed)">
+    <classes>
+      <class name="com.shikhar.casestudy1.case2">
+        <methods>
+          <include name="Alert"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.shikhar.casestudy1.case2 -->
+    </classes>
+  </test> <!-- case2(failed) -->
+</suite> <!-- Failed suite [Test-Suite] -->

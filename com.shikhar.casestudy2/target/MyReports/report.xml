@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="97.451">
+    <testcase classname="Booking Task on Goibibo website" name="Test Goibibo Website" time="92.931">
+        <failure message="Index 1 out of bounds for length 0" type="java.lang.IndexOutOfBoundsException"><![CDATA[Given user is on goibibo page...............................................passed
+When user tap on one way....................................................passed
+Then user enter "New Delhi" & "New York"....................................passed
+Then user select departure "15" & "July 2021"...............................passed
+Then user selects traveller details.........................................passed
+Then user selects cheapest price............................................failed
+Then user book and review...................................................skipped
+
+StackTrace:
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:359)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at stepDefinitions.goibibostepdefinition.user_selects_cheapest_price(goibibostepdefinition.java:92)
+	at ✽.user selects cheapest price(file:///C:/Users/Shikhar/eclipse-workspace/com.shikhar.casestudy2/src/main/java/Features/Booking.feature:11)
+]]></failure>
+    </testcase>
+</testsuite>

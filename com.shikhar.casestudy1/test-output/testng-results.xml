@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-15T07:52:03 IST" name="Default suite" finished-at="2021-06-15T07:52:33 IST" duration-ms="30168">
+    <groups>
+    </groups>
+    <test started-at="2021-06-15T07:52:03 IST" name="Default test" finished-at="2021-06-15T07:52:33 IST" duration-ms="30168">
+      <class name="com.shikhar.casestudy1.case2">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:com.shikhar.casestudy1.case2@3ba9ad43]" started-at="2021-06-15T07:52:03 IST" name="LaunchBrowser" finished-at="2021-06-15T07:52:23 IST" duration-ms="19615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="Alert()[pri:0, instance:com.shikhar.casestudy1.case2@3ba9ad43]" started-at="2021-06-15T07:52:23 IST" name="Alert" finished-at="2021-06-15T07:52:33 IST" duration-ms="10420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Alert -->
+      </class> <!-- com.shikhar.casestudy1.case2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
